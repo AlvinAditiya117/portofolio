@@ -3,14 +3,12 @@
 import logogradient from "./assets/logo.svg";
 import logo from "./assets/logo2.svg";
 // Profile Image
-import profile from "./assets/profile.jpg";
+import profile from "./assets/profiles.jpg";
 // Tech stack images
 import html from "./assets/techstack/html.png";
 import css from "./assets/techstack/css.png";
-import sass from "./assets/techstack/sass.png";
 import js from "./assets/techstack/js.png";
 import react from "./assets/techstack/react.png";
-import redux from "./assets/techstack/redux.png";
 import tailwind from "./assets/techstack/tailwind.png";
 import bootstrap from "./assets/techstack/bootstrap.png";
 import vscode from "./assets/techstack/vscode.png";
@@ -24,8 +22,6 @@ import projectImage1 from "./assets/projects/project1.jpg";
 import projectImage2 from "./assets/projects/project2.jpg";
 import projectImage3 from "./assets/projects/project3.jpg";
 import projectImage4 from "./assets/projects/project4.jpg";
-import projectImage5 from "./assets/projects/project5.jpg";
-import projectImage6 from "./assets/projects/project6.jpg";
 
 // Logos
 export const logos = {
@@ -46,34 +42,9 @@ export const personalDetails = {
 export const socialMediaUrl = {
   linkdein: "https://www.linkedin.com/in/alvin-aditiya",
   github: "https://www.github.com/AlvinAditiya117",
-  twitter: "https://twitter.com/",
+  cv: "https://drive.google.com/file/d/1MNekoP-vxIbbjWZ3Y7uLwrF8RRa9CKhm/view",
   instagram: "https://www.instagram.com/",
 };
-
-// Enter your Work Experience here
-export const workDetails = [
-  {
-    Position: "Frontend Web Developer",
-    Company: `Company Name here`,
-    Location: "Bengaluru",
-    Type: "Full Time",
-    Duration: "Sep 2021 - Dec 2021",
-  },
-  {
-    Position: "Internship",
-    Company: `Company Name here`,
-    Location: "Bengaluru",
-    Type: "Internship",
-    Duration: "Sep 2021 - Dec 2021",
-  },
-  {
-    Position: "Internship",
-    Company: `Company Name here`,
-    Location: "Bengaluru",
-    Type: "Internship",
-    Duration: "Sep 2021 - Dec 2021",
-  },
-];
 
 // Enter your Education Details here
 export const eduDetails = [
@@ -106,8 +77,6 @@ export const techStackDetails = {
   css: css,
   js: js,
   react: react,
-  redux: redux,
-  sass: sass,
   tailwind: tailwind,
   bootstrap: bootstrap,
   vscode: vscode,
@@ -121,58 +90,36 @@ export const techStackDetails = {
 // Enter your Project Details here
 export const projectDetails = [
   {
-    title: "Project title 1",
+    title: "RW Marketplace App – PBL Project",
     image: projectImage1,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
+    description: `Built a neighborhood marketplace app connecting RW residents with local vendors using Flutter for mobile UI and Laravel 12 + Sanctum for backend API. Implemented user authentication, product management, shopping cart, transaction/payment flow, and secure Flutter ↔ Laravel REST API integration. Developed features for resident-vendor interaction, order processing, and local e-commerce within a RW community. (Full Stack Developer, Semester 5, Sep 2025 - Dec 2025, State Polytechnic of Malang)`,
+    techstack: "Flutter, Dart, Laravel 12, PHP, Sanctum, MySQL, REST API",
+    previewLink: "",
+    githubLink: "",
   },
   {
-    title: "Project title 2",
+    title: "Internify – Internship Management System",
     image: projectImage2,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
+    description: `Developed an internship management web application to support companies, students, and lecturers for internship postings, applications, mentoring, evaluations, and feedback. Implemented multi-role authentication and dashboards for students, company users, and lecturers. Built internship vacancy posting, application tracking, mentoring document submission, evaluation scoring, feedback collection, and report generation. Used Laravel 10 with Livewire and Vite for interactive server-driven UI and PHP backend logic. (Full Stack Developer, Feb 2025 - Jun 2025, Politeknik Negeri Malang)`,
+    techstack: "Laravel 10, PHP, Livewire, Vite, MySQL, Axios, Turbolinks",
+    previewLink: "",
+    githubLink: "",
   },
   {
-    title: "Project title 3",
+    title: "Student Discipline Management System (Phase 1)",
     image: projectImage3,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
+    description: `Developed a web-based student conduct enforcement and appeal system using PHP, HTML/CSS, JavaScript, and Microsoft SQL Server. Implemented multi-role access for admin, lecturers, and students to manage violation reports, sanctions, appeals, and profile updates. Built dashboards and responsive pages for report submission, review, sanction tracking, and appeal handling. Integrated secure session management, file uploads, and SQL Server database operations using sqlsrv. (Full Stack Developer, Sep 2025 - Dec 2025, State Polytechnic of Malang)`,
+    techstack: "PHP, HTML/CSS, JavaScript, Microsoft SQL Server, SQLSRV, Bootstrap-style UI",
+    previewLink: "",
+    githubLink: "",
   },
   {
-    title: "Project title 4",
+    title: "Student Discipline Management System (Phase 2)",
     image: projectImage4,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
-  },
-  {
-    title: "Project title 5",
-    image: projectImage5,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
-  },
-  {
-    title: "Project title 6",
-    image: projectImage6,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
+    description: `Continued development of the web-based student conduct enforcement and appeal system using PHP, HTML/CSS, JavaScript, and Microsoft SQL Server. Enhanced multi-role access for admin, lecturers, and students to manage violation reports, sanctions, appeals, and profile updates. Improved dashboards and responsive pages for report submission, review, sanction tracking, and appeal handling. Further integrated secure session management, file uploads, and SQL Server database operations using sqlsrv. (Full Stack Developer, Feb 2026 - Now, State Polytechnic of Malang)`,
+    techstack: "PHP, HTML/CSS, JavaScript, Microsoft SQL Server, SQLSRV, Bootstrap-style UI",
+    previewLink: "",
+    githubLink: "",
   },
 ];
 
